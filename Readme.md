@@ -41,6 +41,9 @@ If the package has been added correctly your app.json file should now contain CK
 Now all you need to do is to add this xtype ```xtype: 'ckeditor'``` or ```Ext.ckeditor.CKeditor``` if you intend to create it on the fly.
 Currently no errors are caught put there are plenty of things I can add to this xtype.
 
+## Example
+To see a live version of the very basic example, just visit [richardstyles.github.io/ExtJSCKEditor/](http://richardstyles.github.io/ExtJSCKEditor/) 
+
 ## Licence
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
