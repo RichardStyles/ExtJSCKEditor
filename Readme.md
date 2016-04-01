@@ -46,6 +46,9 @@ Currently no errors are caught put there are plenty of things I can add to this 
 ## Example
 To see a live version of the very basic example, just visit [richardstyles.github.io/ExtJSCKEditor/](http://richardstyles.github.io/ExtJSCKEditor/) 
 
+## Notes
+Some files seem to get missed from Sencha Cmd when copying the resources/ckeditor to a build directory. If you have errors such as unable to find resources/ckeditor/icons.png? copy the resources/ckeditor folder accross. Unless anyone can point out the bit of app.json I missed to force this.
+
 ## Licence
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
