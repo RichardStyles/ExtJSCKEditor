@@ -1,0 +1,1 @@
+{"_comment":"Please don't edit. This is Architect data.","name":"CKEditorExtSix","resources":[],"requires":[],"theme":"theme-crisp-76199b92-d2c2-4f44-aa05-f5a5d24e557f","classpath":"${app.dir}/app,${app.dir}/resources/ckeditor/","css":[],"js":[{"path":"resources/ckeditor/ckeditor.js","x-compile":true}]}

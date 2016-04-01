@@ -1,0 +1,38 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|initialView": true,
+        "designer|userAlias": "testviewport",
+        "designer|userClassName": "TestViewport",
+        "layout": "vbox"
+    },
+    "name": "MyViewport",
+    "designerId": "b72025a0-a6f0-4633-a50e-019e77f03aa5",
+    "viewControllerInstanceId": "005d404a-cdb2-4252-b6a6-e1dec1159672",
+    "viewModelInstanceId": "6f79eb7b-d17d-44f5-b459-379be82c1749",
+    "cn": [
+        {
+            "type": "Ext.form.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": "ckeditor",
+                "fieldLabel": "",
+                "height": 368,
+                "width": 790
+            },
+            "name": "MyTextArea",
+            "designerId": "d123ac8e-bf18-4935-8fd6-140e749424e1"
+        }
+    ]
+}

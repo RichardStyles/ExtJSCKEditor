@@ -1,0 +1,116 @@
+{
+   "name": "CKEditorExtSix",
+   "version": "1.0.0.0",
+   "indexHtmlPath": "index.html",
+   "classpath": "${app.dir}/app,${app.dir}/resources/ckeditor/",
+   "overrides": [
+      "overrides"
+   ],
+   "framework": "ext",
+   "toolkit": "classic",
+   "theme": "theme-crisp-76199b92-d2c2-4f44-aa05-f5a5d24e557f",
+   "requires": [
+      "font-awesome",
+      "CKEditor"
+   ],
+   "fashion": {
+      "inliner": {
+         "enable": false
+      }
+   },
+   "sass": {
+      "namespace": "CKEditorExtSix",
+      "etc": [
+         "sass/etc/all.scss"
+      ],
+      "var": [
+         "sass/var/all.scss",
+         "sass/var"
+      ],
+      "src": [
+         "sass/src"
+      ]
+   },
+   "js": [
+      {
+         "path": "${framework.dir}/build/ext-all-rtl-debug.js"
+      },
+      {
+         "path": "resources/ckeditor/ckeditor.js",
+         "x-compile": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true
+      }
+   ],
+   "css": [
+      {
+         "path": "${build.out.css.path}",
+         "bundle": true,
+         "exclude": [
+            "fashion"
+         ]
+      }
+   ],
+   "loader": {
+      "cache": false,
+      "cacheParam": "_dc"
+   },
+   "production": {
+      "output": {
+         "appCache": {
+            "enable": true,
+            "path": "cache.appcache"
+         }
+      },
+      "loader": {
+         "cache": "${build.timestamp}"
+      },
+      "cache": {
+         "enable": true
+      },
+      "compressor": {
+         "type": "yui"
+      }
+   },
+   "testing": {},
+   "development": {
+      "tags": []
+   },
+   "bootstrap": {
+      "base": "${app.dir}",
+      "microloader": "bootstrap.js",
+      "css": "bootstrap.css"
+   },
+   "output": {
+      "base": "${workspace.build.dir}/${build.environment}/${app.name}",
+      "appCache": {
+         "enable": false
+      }
+   },
+   "cache": {
+      "enable": false,
+      "deltas": true
+   },
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      {
+         "path": "resources",
+         "output": "shared"
+      }
+   ],
+   "ignore": [
+      "(^|/)CVS(/?$|/.*?$)"
+   ],
+   "archivePath": "archive",
+   "id": "f0d2046a-60d7-4943-b4c1-289781233292"
+}
