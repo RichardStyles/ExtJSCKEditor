@@ -18,6 +18,7 @@ Once you have the ckeditor code this needs to be added to your app.json **before
       },
       {
          "path": "resources/ckeditor/ckeditor.js",
+         "remote": true,
          "x-compile": true
       },
       {
@@ -28,7 +29,8 @@ Once you have the ckeditor code this needs to be added to your app.json **before
 ``` 
 ## CKEditor package
 Next you will need to add the CKEditor.pkg file the current version is included with the repo. I will be adding this to a CDN at some point depending on how well it is recieved.
-Simply copy it accross to your current workspace and then you will need to add the package using the following sencha command: ```sencha package add CKEditor.pkg```
+Simply copy it accross to your current workspace and then you will need to add the package using the following sencha command: 
+```sencha package add CKEditor.pkg```
 
 If the package has been added correctly your app.json file should now contain CKEditor within the existing requires.
 ```javascript
@@ -38,7 +40,7 @@ If the package has been added correctly your app.json file should now contain CK
 ```
 
 ## Writing ExtJS
-Now all you need to do is to add this xtype ```xtype: 'ckeditor'``` or ```Ext.ckeditor.CKeditor``` if you intend to create it on the fly.
+Now all you need to do is to add this xtype ```xtype: 'ckeditor'``` and Require ```Ext.ckeditor.CKeditor```.
 Currently no errors are caught put there are plenty of things I can add to this xtype.
 
 ## Example
