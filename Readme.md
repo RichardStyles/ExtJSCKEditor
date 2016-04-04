@@ -7,6 +7,8 @@ This is an example of how to use the CKEditor.pkg to create a Ext JS application
 ## Getting things working
 This GIT project contains the example code to get it running, it can be run with and without Sencha Architect 3.5 (minimum), but would require Sencha cmd to rebuild after any changes.
 
+This package should also work with ExtJS 5.1, but is being tested to work with ExtJS 6.*
+
 ## CKEditor.com
 This repo does contain the current build of CKEditor.  If you want a newer version, simple go to [ckeditor.com](http://ckeditor.com/) and download a pre-compiled version with the settings that you so desire and update the code in ```resources/ckeditor/```
 Once you have the ckeditor code this needs to be added to your app.json **before** your app.js. If you have a precompiled version then it is okay to x-compile it into your app.js file. Remember the ordering is important.
