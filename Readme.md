@@ -49,11 +49,14 @@ To see a live version of the very basic example, just visit [richardstyles.githu
 ## Versions
 
 1.1
-Updated Class name to Ext.ckeditor.CKEditor
-to unify the case used across the package.
+
+* Updated Class name to Ext.ckeditor.CKEditor to unify the case used across the package.
+* Added warning message to console if ckeditor.js not loaded first.
+
 
 1.0.* 
-Intial version
+
+* Intial version
 
 ## Notes
 Some files seem to get missed from Sencha Cmd when copying the resources/ckeditor to a build directory. If you have errors such as unable to find resources/ckeditor/icons.png? copy the resources/ckeditor folder accross. Unless anyone can point out the bit of app.json I missed to force this.
