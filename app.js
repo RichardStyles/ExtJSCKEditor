@@ -15,16 +15,13 @@
 
 // @require @packageOverrides
 Ext.Loader.setConfig({
-    paths: {
-        'Ext.rs': 'rs'
-    }
+
 });
 
 
 Ext.application({
 
     requires: [
-        'Ext.Loader',
         'Ext.ckeditor.CKeditor'
     ],
     views: [

@@ -37,7 +37,6 @@
       },
       {
          "path": "resources/ckeditor/ckeditor.js",
-         "remote": true,
          "x-compile": true
       },
       {

@@ -15,24 +15,5 @@
         ]
     },
     "name": "Application",
-    "designerId": "application",
-    "cn": [
-        {
-            "type": "Ext.Loader",
-            "reference": {
-                "name": "loader",
-                "type": "object"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "paths": [
-                    "{",
-                    "'Ext.rs':'rs'",
-                    "}"
-                ]
-            },
-            "name": "Loader12",
-            "designerId": "5b86c702-193e-4377-a2de-7735a31a6701"
-        }
-    ]
+    "designerId": "application"
 }
