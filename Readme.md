@@ -40,11 +40,20 @@ If the package has been added correctly your app.json file should now contain CK
 ```
 
 ## Writing ExtJS
-Now all you need to do is to add this xtype ```xtype: 'ckeditor'``` and Require ```Ext.ckeditor.CKeditor```.
+Now all you need to do is to add this xtype ```xtype: 'ckeditor'``` and Require ```Ext.ckeditor.CKEditor```.
 Currently no errors are caught put there are plenty of things I can add to this xtype.
 
 ## Example
 To see a live version of the very basic example, just visit [richardstyles.github.io/ExtJSCKEditor/](http://richardstyles.github.io/ExtJSCKEditor/) 
+
+## Versions
+
+1.1
+Updated Class name to Ext.ckeditor.CKEditor
+to unify the case used across the package.
+
+1.0.* 
+Intial version
 
 ## Notes
 Some files seem to get missed from Sencha Cmd when copying the resources/ckeditor to a build directory. If you have errors such as unable to find resources/ckeditor/icons.png? copy the resources/ckeditor folder accross. Unless anyone can point out the bit of app.json I missed to force this.
